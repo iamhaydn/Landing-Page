@@ -1,0 +1,172 @@
+.top{
+    background-color: #1f2937;
+    height: 500px;
+}
+
+
+.container{
+    display: flex;
+    background-color: #1f2937;
+    margin-left: 10%;  
+    margin-right: 10%;
+    color: #f9faf8; 
+}
+
+.one{
+    flex-grow: 1;
+    padding: 30px;
+    font-weight: bold;
+    font-size: 24px;
+    
+}
+
+.two{
+    padding: 30px;  
+}
+
+.three{
+    padding: 30px;
+}
+
+.four{
+    padding: 30px;
+}
+
+.mid{
+    display: flex;
+    gap: 5%;
+    margin-left: 20%;
+    margin-right: 20%;
+    flex-basis: auto;
+    height: 422px;
+    
+}
+
+.mid .right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+
+.mid .left{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px;
+}
+ 
+.bold{
+    font-size: 48px;
+    font-weight: 800;
+    color: #f9faf8;
+}
+
+.lorem{
+    padding-left: 1%;
+    padding-right: 1%;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+h2{
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+    text-align: center;
+}
+
+.middle-photos{
+    display: flex; 
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+    padding: 2%;
+}
+
+.heading{
+    padding: 2%;
+}
+
+.photos{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 2%;
+
+}
+
+.p{
+    color: black;
+}
+
+.quote{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 3%;
+    background-color: #1f2937;
+    font-style: italic;
+    font-size: 36px;
+  
+}
+
+.author{
+    padding-left: 10%;
+    color: white;
+    font-style: normal;
+}
+
+.quote p {
+    color: red;
+}
+
+.bottom{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #3882F6;
+    margin: 2% 20%;
+    padding: 3%;
+    gap: 3em;
+}
+
+.bottom .left{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    background-color: #1f2937;
+    color: white;
+    font-size: small;
+    gap: 5px;
+}
+
+button{
+    display: block;
+    background-color: blue;
+    border-radius: 7px;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 5px 25px;   
+}
+button:hover{
+    background-color: black;
+    color: white;
+}
+
+*{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    columns: white;
+    margin: 0%;
+}

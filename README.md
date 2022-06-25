@@ -13,3 +13,5 @@ Challenges:
  better grasp of each coding line that followed.
  
 
+Link to the project:
+https://cdn.statically.io/gh/TheOdinProject/curriculum/main/foundations/html_css/project/odin-project.png
